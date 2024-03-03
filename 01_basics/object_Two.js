@@ -3,7 +3,7 @@
 let tinderUser = new Object() // singleton object
 tinderUser.id = "123ABC"
 tinderUser.name = "Samantha"
-tinderUser.isLoggedName = false
+tinderUser.isLoggedIn = false
 
 // console.log(tinderUser)
 
@@ -57,3 +57,5 @@ users.forEach(element => {
 console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'))
