@@ -50,12 +50,28 @@ let users = [
 //     console.log(element)
 // }
 
-users.forEach(element => {
-    console.log(element);
-});
+// users.forEach(element => {
+//     console.log(element);
+// });
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+const course = {
+    Name: "JavaScript",
+    Price: "4.99",
+    Teacher: "Hitesh"
+}
+
+// console.log(course.Name)
+
+let {Name} = course
+let {Price} = course
+let {Teacher} = course
+
+console.log(Name)
+console.log(Price)
+console.log(Teacher)
