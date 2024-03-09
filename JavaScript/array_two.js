@@ -27,3 +27,25 @@ let score3 = 300
 
 let numArray = Array.of(score1, score2, score3) // of operator -  creates an array from variables different data types
 // console.log(numArray)
+
+let myArr = [
+    {
+        item: "Biscuit",
+        price: 33.89
+    },
+    {
+        item: "Washing Powder",
+        price: 59.34
+    },
+    {
+        item: "Rice",
+        price: 168.25
+    }
+]
+// objects inside array
+
+for (let index = 0; index < myArr.length; index++) {
+    const element = myArr[index];
+    console.log(typeof element)   
+}
+
