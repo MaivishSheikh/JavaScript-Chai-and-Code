@@ -1,23 +1,23 @@
-// let myArr = new Array('hello', 'world', 1, 5 ,4)
-// console.log(myArr)
-// console.log(typeof myArr)
+let myArr = new Array('hello', 'world', 1, 5 ,4)
+console.log(myArr)
+console.log(typeof myArr)
 
 const myArr2 = [3, 2, 6, 1, 8]
-// console.log(myArr2);
-// console.log(typeof myArr2);
+console.log(myArr2);
+console.log(typeof myArr2);
 
-// myArr2.push(9)
-// myArr2.pop()
+myArr2.push(9)
+myArr2.pop()
 
-// myArr2.unshift(10)
-// myArr2.shift()
+myArr2.unshift(10)
+myArr2.shift()
 
-// console.log(myArr2.includes(6))
-// console.log(myArr2.indexOf(2))
+console.log(myArr2.includes(6))
+console.log(myArr2.indexOf(2))
 
 const newArray = myArr2.join()
-// console.log(newArray);
-// console.log(typeof newArray);
+console.log(newArray);
+console.log(typeof newArray);
 
 console.log(['A - Original', myArr2])
 

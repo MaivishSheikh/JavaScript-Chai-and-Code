@@ -1,11 +1,11 @@
 // logical operator 
 
-// let userLoggedIn = true
-// let DebitCard = true
+let userLoggedIn = true
+let DebitCard = true
 
-// if(userLoggedIn && DebitCard) {
-//     console.log("Valid User")
-// }
+if(userLoggedIn && DebitCard) {
+    console.log("Valid User")
+}
 
 let emailLogIn = true
 let googleLogIn = false

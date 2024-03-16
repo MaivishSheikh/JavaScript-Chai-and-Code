@@ -19,26 +19,26 @@ if(2 == "2") console.log("test1"), console.log("test2");
 
 // if-else 
 
-// let age = 20
+let age = 20
 
-// if(age >= 18) {
-//     console.log("You can vote")
-// }
-// else {
-//     console.log("You can't vote")
-// }
+if(age >= 18) {
+    console.log("You can vote")
+}
+else {
+    console.log("You can't vote")
+}
 
 // nested if
 
-// let age = 23
+age = 23
 
-// if(age < 12) {
-//     console.log("Kid")
-// } else if (age < 20) {
-//     console.log("Teenage")
-// } else if (age < 30) {
-//     console.log("Young Adult")
-// } else {
-//     console.log("Adult")
-// }
+if(age < 12) {
+    console.log("Kid")
+} else if (age < 20) {
+    console.log("Teenage")
+} else if (age < 30) {
+    console.log("Young Adult")
+} else {
+    console.log("Adult")
+}
 

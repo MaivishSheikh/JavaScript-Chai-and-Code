@@ -15,16 +15,16 @@ let instaUser = {
     }
 }
 
-// console.log(instaUser);
-// console.log(instaUser.fullname);
-// console.log(typeof instaUser.fullname);
+console.log(instaUser);
+console.log(instaUser.fullname);
+console.log(typeof instaUser.fullname);
 
 let obj1 = {1: "a", 2: "b"}
 let obj2 = {3: "c", 4: "d"}
 let obj4 = {5: "e", 6: "f"}
 // let obj3 = Object.assign({}, obj1, obj2, obj4) - is used relatively less
 let obj3 = {...obj1, ...obj2, ...obj4} // spread operator
-// console.log(obj3);
+console.log(obj3);
 
 let users = [
     {
@@ -45,20 +45,20 @@ let users = [
     }
 ]
 
-// for (let index = 0; index < 4; index++) {
-//     const element = users[index];
-//     console.log(element)
-// }
+for (let index = 0; index < 4; index++) {
+    const element = users[index];
+    console.log(element)
+}
 
-// users.forEach(element => {
-//     console.log(element);
-// });
+users.forEach(element => {
+    console.log(element);
+});
 
-// console.log(Object.keys(tinderUser))
-// console.log(Object.values(tinderUser))
-// console.log(Object.entries(tinderUser))
+console.log(Object.keys(tinderUser))
+console.log(Object.values(tinderUser))
+console.log(Object.entries(tinderUser))
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 
 const course = {
     Name: "JavaScript",

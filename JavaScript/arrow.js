@@ -6,28 +6,28 @@ const chai = {
     }
 }
 
-// chai.welcome();
-// chai.item = "Coffee"
-// chai.price = 2.45
-// chai.welcome()
+chai.welcome();
+chai.item = "Coffee"
+chai.price = 2.45
+chai.welcome()
 
-// console.log(this)
+console.log(this)
 
 const hello = () => {
     console.log(this)
 }
 
-// hello()
+hello()
 
-// const wow = (num1, num2) => {
-//     return num1 + num2
-// }
+let wow = (num1, num2) => {
+    return num1 + num2
+}
 
-// const wow = () => (chai.welcome())
-// console.log(wow())
+wow = () => (chai.welcome())
+console.log(wow())
 
-// const wow = (m1,m2) => (m1 + m2)
-// console.log(wow(3,4))
+wow = (m1,m2) => (m1 + m2)
+console.log(wow(3,4))
 
 let array1 = [0, 2, 4, 6, 8, 10]
 
