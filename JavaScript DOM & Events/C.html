@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model | JavaScript</title>
+    <style>
+        input {
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+        .wow {
+            display: none;
+        }
+        .peep {
+            display: block;
+        }
+    </style>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+    <button class="btn" onclick="addTasks()">Add Tasks</button>
+    <button class="btn" onclick="finish()">Task Completed</button>
+    <form action="">
+        <input type="text" id="add">
+        <button class="wow" id="insert">submit</button>
+    </form>
+</body>
+<script>
+    function addTasks() {
+        document.getElementById("add").classList.toggle("show")
+        document.getElementById("insert").classList.toggle("peep")
+    }
+
+
+    // function addLang(langName) {
+    //     const li = document.createElement('li');
+    //     li.appendChild(document.createTextNode(task))
+    //     const ul = document.querySelector('.language')
+    //     ul.appendChild(li) 
+    // }
+    // addLang(task)
+
+    
+</script>
+</html>

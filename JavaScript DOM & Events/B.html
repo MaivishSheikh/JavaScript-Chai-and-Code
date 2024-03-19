@@ -7,12 +7,16 @@
 </head>
 <body style="background-color: #212121; color: #fff;">
     <h1>Hello</h1>
+
     <script>
         const div = document.createElement('div')
+        console.log(div)
         div.className = 'main'
         div.style.backgroundColor = 'green'
+        div.style.padding = '10px'
+        // div.innerText = "Python"
         const addContent = document.createTextNode('Document Object Model')
-        div.appendCild(addContent)
+        div.appendChild(addContent)
         document.body.appendChild(div)
     </script>
 </body>
