@@ -24,13 +24,23 @@
             let div = document.querySelector(".addedTask")
             div.appendChild(li)
         }
-        let tasks = document.getElementsByClassName("tasks")
-        tasks.addEventListener("click", () => {
-            for(i = 0; i < tasks.length; i++) {
+        function strike() {
+            let tasks = document.getElementsByClassName("task")
+            for(let i = 0; i < tasks.length; i++) {
                 let task = tasks[i]
-                if(task.)
+                console.log(task)
+                task.addEventListener("click", () => {
+                    if(task.classList.contains("strike")) {
+                        task.classList.remove("strike")
+                    }
+                    else {
+                        task.classList.add("strike")
+                    }
+                })
             }
-        })
+        }
+        
+        strike()
     </script>
 </body>
 </html>
