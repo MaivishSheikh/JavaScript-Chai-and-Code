@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <input type="button" value="Add Task" class="btn" onclick="addTask()">
+    <div>
+        <ul class="addedTask">
+            <li class="task">Read PHP interview questions</li>
+            <li class="task">Watch interview videos</li>
+        </ul>
+    </div>
+
+    <script>
+        function addTask() {
+            let value = prompt("Enter your task: ")
+            let li = document.createElement("li")
+            li.innerHTML = value
+            li.setAttribute("class", "task")
+            let div = document.querySelector(".addedTask")
+            div.appendChild(li)
+        }
+        let tasks = document.getElementsByClassName("tasks")
+        tasks.addEventListener("click", () => {
+            for(i = 0; i < tasks.length; i++) {
+                let task = tasks[i]
+                if(task.)
+            }
+        })
+    </script>
+</body>
+</html>

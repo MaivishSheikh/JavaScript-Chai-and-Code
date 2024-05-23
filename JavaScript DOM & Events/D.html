@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red {
+            background-color: red;
+            margin: 10px 0;
+        }
+        .green {
+            background-color: green;
+            margin: 10px 0;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" value="Click Me" id="btn">
+    <div class="box red">Hello World</div>
+    <div class="box red">Hello World</div>
+    <div class="box red">Hello World</div>
+    <div class="box red">Hello World</div>
+    <script>
+        let btn = document.getElementById("btn")
+        let box = document.getElementsByClassName("box")
+        btn.addEventListener("click", () => {
+            for(i = 0; i < box.length; i++) {
+                let red = box[i]
+                if(red.classList.contains("red")) {
+                    red.classList.add("green")
+                    red.classList.remove("red")
+                }
+                else {
+                    red.classList.add("red")
+                    red.classList.remove("green")
+                }
+            }
+        })
+    </script>
+</body>
+</html>
